@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<html lang=" en">
+    <title>Document Guvi</title>
+    <style>
+        .contact {
+            border: 2px black;
+            height: 40%;
+            width: 40%;
+        }
+
+        .name {
+            text-align-last: center;
+        }
+
+        .container {
+            display: flex;
+            border: 2px solid black;
+            justify-content: center;
+            background-color: dodgerblue;
+            border-radius: 50px;
+        }
+
+        button {
+            position: relative;
+            left: 100px;
+        }
+
+        .box1 {
+
+            border: 2px solid black;
+            width: 500px;
+        }
+
+        .txt {
+            position: relative;
+            left: 110px;
+            background-color: red;
+        }
+
+        .inp1 {
+            position: relative;
+            left: 20px;
+            top: 0px;
+        }
+
+        .inp2 {
+            position: relative;
+            left: 300px;
+            bottom: 40px;
+        }
+
+        .address {
+            position: relative;
+            left: 20px;
+        }
+
+        #inp1 {
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            width: 25%;
+        }
+
+        #inp2 {
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            width: 25%;
+        }
+
+        #inp3 {
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            width: 80%;
+        }
+
+        .city {
+            position: relative;
+            left: 20px;
+        }
+
+        #city {
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            width: 20%;
+        }
+
+        .state {
+            position: relative;
+            left: 34%;
+            bottom: 39px;
+        }
+
+        #state {
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            width: 20%;
+        }
+
+        .zip {
+            position: relative;
+            left: 65%;
+            bottom: 77px;
+        }
+
+        #zip {
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            width: 19%;
+
+        }
+
+        .checkbox {
+            position: relative;
+            bottom: 55px;
+            left: 20px;
+        }
+
+        .info {
+            position: relative;
+            left: 20px;
+        }
+
+        table {
+            border: solid black;
+            text-align: center;
+            border-collapse: collapse
+        }
+
+        #html-pg {
+            border: solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <h2> 1st Exercise </h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+    <div>
+        Guvi Geek Network
+    </div>
+
+    <hr>
+
+    <h2> 2nd Exercise </h2>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+
+    <hr>
+
+    <h2> 3rd Exercise </h2>
+
+    <div class="container">
+
+        <div class="box">
+
+
+            <p>
+            <h3 style="color: rgb(201, 0, 0);"> Contact Form </h3>
+            <h3> <label> Exercises </label> </h3>
+            <form method="POST">
+                <label for="name"> Name: </label> <br>
+                <input type="text" name="Name" id="name" placeholder="Name">
+                <p>
+                    <label for="email"> E-mail: </label> <br>
+                    <input type="email" name="E-mail" id="email" placeholder="E-Mail id">
+                </p>
+                <p>
+                    <label for="subject"> Subject: </label> <br>
+                    <input type="text" name="Subject" id="subject" placeholder="Subject">
+                </p>
+                <p>
+                    <label> Date Of Birth </label> <br>
+                    <!--DOB using Select & option Method-->
+                    <select>
+                        <option value=""> Date </option>
+                        <option value="1"> 1 </option>
+                        <option value="2"> 2 </option>
+                        <option value="3"> 3 </option>
+                        <option value="4"> 4 </option>
+                        <option value="5"> 5 </option>
+                        <option value="6"> 6 </option>
+                        <option value="7"> 7 </option>
+                        <option value="8"> 8 </option>
+                        <option value="9"> 9 </option>
+                        <option value="10"> 10 </option>
+                        <option value="11"> 11 </option>
+                        <option value="12"> 12 </option>
+                        <option value="13"> 13 </option>
+                        <option value="14"> 14 </option>
+                        <option value="15"> 15 </option>
+                        <option value="16"> 16 </option>
+                        <option value="17"> 17 </option>
+                        <option value="18"> 18 </option>
+                        <option value="19"> 19 </option>
+                        <option value="20"> 20 </option>
+                        <option value="21"> 21 </option>
+                        <option value="22"> 22 </option>
+                        <option value="23"> 23 </option>
+                        <option value="24"> 24 </option>
+                        <option value="25"> 25 </option>
+                        <option value="26"> 26 </option>
+                        <option value="27"> 27 </option>
+                        <option value="28"> 28 </option>
+                        <option value="29"> 29 </option>
+                        <option value="30"> 30 </option>
+                        <option value="31"> 31 </option>
+                    </select>
+                    <select>
+                        <option value="01"> Month </option>
+                        <option value="01"> 01 </option>
+                        <option value="02"> 02 </option>
+                        <option value="03"> 03 </option>
+                        <option value="04"> 04 </option>
+                        <option value="05"> 05 </option>
+                        <option value="06"> 06 </option>
+                        <option value="07"> 07 </option>
+                        <option value="08"> 08 </option>
+                        <option value="09"> 09 </option>
+                        <option value="10"> 10 </option>
+                        <option value="11"> 11 </option>
+                        <option value="12"> 12 </option>
+                    </select>
+                    <select>
+                        <option value="1980"> 1980 </option>
+                        <option value="1981"> 1981 </option>
+                        <option value="1982"> 1982 </option>
+                        <option value="1983"> 1983 </option>
+                        <option value="1984"> 1984 </option>
+                        <option value="1985"> 1985 </option>
+                        <option value="1986"> 1986 </option>
+                        <option value="1987"> 1987 </option>
+                        <option value="1988"> 1988 </option>
+                        <option value="1989"> 1989 </option>
+                        <option value="1990"> 1990 </option>
+                        <option value="1991"> 1991 </option>
+                        <option value="1992"> 1992 </option>
+                        <option value="1993"> 1993 </option>
+                        <option value="1994"> 1994 </option>
+                        <option value="1995"> 1995 </option>
+                        <option value="1996"> 1996 </option>
+                        <option value="1997"> 1997 </option>
+                        <option value="1998"> 1998 </option>
+                        <option value="1999"> 1999 </option>
+                        <option value="2000"> 2000 </option>
+                        <option value="2001"> 2001 </option>
+                        <option value="2002"> 2002 </option>
+                        <option value="2003"> 2003 </option>
+                        <option value="2004"> 2004 </option>
+                        <option value="2005"> 2005 </option>
+                        <option value="2006"> 2006 </option>
+                        <option value="2007"> 2007 </option>
+                        <option value="2008"> 2008 </option>
+                        <option value="2009"> 2009 </option>
+                        <option value="2010"> 2010 </option>
+                        <option value="2011"> 2011 </option>
+                        <option value="2012"> 2012 </option>
+                        <option value="2013"> 2013 </option>
+                        <option value="2014"> 2014 </option>
+                        <option value="2015"> 2015 </option>
+                        <option value="2016"> 2016 </option>
+                        <option value="2017"> 2017 </option>
+                        <option value="2018"> 2018 </option>
+                        <option value="2019"> 2019 </option>
+                        <option value="2020"> 2020 </option>
+                        <option value="2021"> 2021 </option>
+                    </select>
+                </p>
+                <p>
+                    <label> Need To ! </label> <br>
+                    <input type="radio" name="request_type" value="Syllabus" checked>
+                    Request Syllabus
+                    <input type="radio" name="request_type" value="support"> Request Query
+
+                </p>
+                <p>
+                    <label> Message: </label><br>
+                    <textarea cols="35" rows="5" placeholder="Enter your Message Here"></textarea>
+                </p>
+                <p>
+                    <label> I want to learn first </label> <br>
+                    <input type="radio" name="learn_first" id="html" value="HTML" checked>
+                    <label for="html"> HTML </label> <br>
+                    <input type="radio" name="learn_first" id="css" value="HTML"> <label for="css"> CSS </label> <br>
+                    <input type="radio" name="learn_first" id="js" value="JavaScript">
+                    <label for="js"> JavaScript </label> <br>
+                </p>
+                <p>
+                    <label> Your Educational Qualifications ? </label> <br>
+                    <input type="checkbox" name="Qualifications[]" id="sslc" value="SSLC">
+                    <label for="sslc"> SSLC </label> <br>
+                    <input type="checkbox" name="Qualifications[]" id="hslc" value="HSLC"><label for="hslc"> HSLC
+                    </label> HSLC<br>
+                    <input type="checkbox" name="Qualifications[]" id="diploma" value="Diploma"> <label for="diploma">
+                        Diploma </label> <br>
+                    <input type="checkbox" name="Qualifications[]" id="b.e" value="B.E or B.TECH"> <label for="b.e"> B.E
+                        or B.TECH </label> <br>
+                    <input type="checkbox" name="Qualifications[]" id="m.e" value="M.E or M.TECH"> <label for="m.e"> M.E
+                        or M.TECH </label> <br>
+                </p>
+                <p>
+                    <button> Submit </button>
+                </p>
+            </form>
+            </p>
+        </div>
+    </div>
+    <hr>
+    <h2> 4th exercise </h2>
+    <ul>
+        <li> JavaScript
+            <ul>
+                <li> <b> JavaScript </b> </li>
+
+            </ul>
+        </li>
+        <ol type="a">
+            <li> angular </li>
+            <li> React </li>
+            <li> Vue Js </li>
+        </ol>
+        <ul> <br>
+            <li> <b> Python </b>
+        </ul>
+        </li>
+        <ol type="a">
+            <li> Django Framework </li>
+            <li> Flask Framework </li>
+        </ol> <br>
+        <ul>
+            <li> <b> Java </b>
+
+        </ul>
+        <ol type="a">
+            <li> Spring </li>
+            <li> Maven </li>
+            <li> Hibernate </li>
+        </ol> <br>
+        <ul>
+            <li> <b> Database </b>
+        </ul>
+        </li>
+        <ol type="a">
+            <li> My Sql </li>
+            <li> Mongo DB </li>
+            <li> Cansandra </li>
+        </ol>
+    </ul>
+    <hr>
+    <h2> 5th Exercise </h2>
+
+    <span> Create an element that helps you to open the <a href="https://google.com" target="_blank"> https://google.com
+        </a> in separate new tab. </span>
+    <hr>
+
+    <h2> 6th Exercise </h2>
+    <div class="radio">
+        <form action="/action_page.php">
+              <input type="radio" id="sal" name="fav_language" value="HTML">
+              <label for="sal"> Salaried </label><br>
+              <input type="radio" id="ob" name="fav_language">
+              <label for="ob"> Own business </label><br>
+             
+        </form>
+    </div>
+
+    <br>
+    <hr>
+    <h2> 7th Exercise </h2>
+    <div class="box1">
+        <span class="txt"> Yes! I want to subscribe to Mag-O-Zine </span> <br>
+        <br>
+        <div class="inp1">
+            <input type="text" id="inp1"><br>
+            <label for=""> First name </label>
+        </div>
+
+        <div class="inp2">
+            <input type="text" id="inp2"> <br>
+            <label for=""> First name </label>
+        </div>
+
+        <div class="address">
+            <input type="text" name="add" id="inp3"> <br>
+            <label for="add"> Address </label>
+        </div> <br>
+
+        <div class="csz">
+            <div class="city">
+                <input type="text" id="city"> <br>
+                <label for="#city"> City </label>
+            </div>
+
+            <div class="state">
+                <input type="text" name="state" id="state"> <br>
+                <label for="state"> state </label>
+            </div>
+
+            <div class="zip">
+                <input type="text" name="zip" id="zip"> <br>
+                <label for="zip"> Zip </label>
+            </div>
+        </div>
+        <div class="checkbox">
+            <span> Subscribe for : </span> <input type="checkbox" name="Qualifications[]" id="1 Year" value="1 Year">
+            <label for="sslc"> 1 Year ($19.95) </label>
+
+
+            <input type="checkbox" name="Qualifications[]" id="2 Years" value="2 Years"> <label for="hslc"> 2 Years
+                ($35.00) </label>
+        </div>
+
+        <div class="info">
+            <span> Send me more information about: </span> <br>
+            <input type="checkbox" name="computer" id="computer">
+            <label for=""> Computer-Zine </label> <br>
+
+            <input type="checkbox">
+            <label for=""> Fishing-Zine </label> <br>
+
+            <input type="checkbox">
+            <label for=""> Cat-O-Zine </label>
+        </div>
+    </div>
+    <hr>
+    <br>
+    <h2> Exercise 8 </h2>
+
+
+    <div class="tab">
+        <table border="1">
+            <tr>
+                <td rowspan="2"> State of Health </td>
+                <td colspan="2"> Fasting Value </td>
+
+                <td> After Eating </td>
+            </tr>
+            <tr>
+
+                <td> Minimum </td>
+                <td> Maximum </td>
+                <td> 2 Hours after eating </td>
+            </tr>
+            <tr>
+                <td> Healthy </td>
+                <td> 70 </td>
+                <td> 100 </td>
+                <td> Less than 140 </td>
+            </tr>
+            <tr>
+                <td> Pre-Diabates </td>
+                <td> 101 </td>
+                <td> 126 </td>
+                <td> 140 to 200 </td>
+            </tr>
+            <tr>
+                <td> Diabates </td>
+                <td> More than 126 </td>
+                <td> N/A </td>
+                <td> More than 200 </td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <h2> Exercise 9 </h2>
+    <form method="POST">
+        <label for="name"> Name: </label> <br>
+        <input type="text" name="Name" value="Gowtham kumar" id="name" placeholder="Name">
+        <p>
+            <label for="email"> E-mail: </label> <br>
+            <input type="email" name="E-mail" id="email" value="John900@gmail.com" placeholder="E-Mail id">
+        </p>
+        <p>
+            <label for="subject"> Subject: </label> <br>
+            <input type="text" name="Subject" value="Full stack Developer" id="subject" placeholder="Subject">
+        </p>
+        <p>
+            <label> Date Of Birth </label> <br>
+            <!--DOB using Select & option Method-->
+            <select>
+
+                <option value="1"> 1 </option>
+                <option value="2"> 2 </option>
+                <option value="3"> 3 </option>
+                <option value="4"> 4 </option>
+                <option value="5"> 5 </option>
+                <option value="6"> 6 </option>
+                <option value="7"> 7 </option>
+                <option value="8"> 8 </option>
+                <option value="9"> 9 </option>
+                <option value="10"> 10 </option>
+                <option value="11"> 11 </option>
+                <option value="12"> 12 </option>
+                <option value="13"> 13 </option>
+                <option value="14"> 14 </option>
+                <option value="15"> 15 </option>
+                <option value="16"> 16 </option>
+                <option value="17"> 17 </option>
+                <option value="18"> 18 </option>
+                <option value="19"> 19 </option>
+                <option value="20"> 20 </option>
+                <option value="21"> 21 </option>
+                <option value="22"> 22 </option>
+                <option value="23"> 23 </option>
+                <option value="24"> 24 </option>
+                <option value="25"> 25 </option>
+                <option value="26"> 26 </option>
+                <option value="27"> 27 </option>
+                <option value="28"> 28 </option>
+                <option value="29"> 29 </option>
+                <option value="30"> 30 </option>
+                <option value="31"> 31 </option>
+            </select>
+            <select>
+
+                <option value="01"> 01 </option>
+                <option value="02"> 02 </option>
+                <option value="03"> 03 </option>
+                <option value="04"> 04 </option>
+                <option value="05"> 05 </option>
+                <option value="06"> 06 </option>
+                <option value="07"> 07 </option>
+                <option value="08"> 08 </option>
+                <option value="09"> 09 </option>
+                <option value="10"> 10 </option>
+                <option value="11"> 11 </option>
+                <option value="12"> 12 </option>
+            </select>
+            <select>
+                <option value="1980"> 1980 </option>
+                <option value="1981"> 1981 </option>
+                <option value="1982"> 1982 </option>
+                <option value="1983"> 1983 </option>
+                <option value="1984"> 1984 </option>
+                <option value="1985"> 1985 </option>
+                <option value="1986"> 1986 </option>
+                <option value="1987"> 1987 </option>
+                <option value="1988"> 1988 </option>
+                <option value="1989"> 1989 </option>
+                <option value="1990"> 1990 </option>
+                <option value="1991"> 1991 </option>
+                <option value="1992"> 1992 </option>
+                <option value="1993"> 1993 </option>
+                <option value="1994"> 1994 </option>
+                <option value="1995"> 1995 </option>
+                <option value="1996"> 1996 </option>
+                <option value="1997"> 1997 </option>
+                <option value="1998"> 1998 </option>
+                <option value="1999"> 1999 </option>
+                <option value="2000"> 2000 </option>
+                <option value="2001"> 2001 </option>
+                <option value="2002"> 2002 </option>
+                <option value="2003"> 2003 </option>
+                <option value="2004"> 2004 </option>
+                <option value="2005"> 2005 </option>
+                <option value="2006"> 2006 </option>
+                <option value="2007"> 2007 </option>
+                <option value="2008"> 2008 </option>
+                <option value="2009"> 2009 </option>
+                <option value="2010"> 2010 </option>
+                <option value="2011"> 2011 </option>
+                <option value="2012"> 2012 </option>
+                <option value="2013"> 2013 </option>
+                <option value="2014"> 2014 </option>
+                <option value="2015"> 2015 </option>
+                <option value="2016"> 2016 </option>
+                <option value="2017"> 2017 </option>
+                <option value="2018"> 2018 </option>
+                <option value="2019"> 2019 </option>
+                <option value="2020"> 2020 </option>
+                <option value="2021"> 2021 </option>
+            </select>
+        </p>
+        <p>
+            <label> Need To ! </label> <br>
+            <input type="radio" name="request_type" value="Syllabus" checked>
+            Request Syllabus
+            <input type="radio" name="request_type" value="support"> Request Query
+
+        </p>
+        <p>
+            <label> Message: </label><br>
+            <textarea cols="35" rows="5"
+                placeholder="Enter your Message Here"> Hi Sir 
+             kindly send me the broucher for the full stack developer programme & Also the course stucture too  </textarea>
+        </p>
+        <p>
+            <label> I want to learn first </label> <br>
+            <input type="radio" name="learn_first" id="html" value="HTML" checked>
+            <label for="html"> HTML </label> <br>
+            <input type="radio" name="learn_first" id="css" value="HTML"> <label for="css"> CSS </label> <br>
+            <input type="radio" name="learn_first" id="js" value="JavaScript">
+            <label for="js"> JavaScript </label> <br>
+        </p>
+        <p>
+            <label> Your Educational Qualifications ? </label> <br>
+            <input type="checkbox" name="Qualifications[]" id="sslc" value="SSLC">
+            <label for="sslc"> SSLC </label> <br>
+            <input type="checkbox" name="Qualifications[]" id="hslc" value="HSLC"><label for="hslc"> HSLC
+            </label> HSLC<br>
+            <input type="checkbox" name="Qualifications[]" id="diploma" value="Diploma"> <label for="diploma" checked>
+                Diploma </label> <br>
+            <input type="checkbox" checked name="Qualifications[]" id="b.e" value="B.E or B.TECH"> <label for="b.e"> B.E
+                or B.TECH </label> <br>
+            <input type="checkbox" name="Qualifications[]" id="m.e" value="M.E or M.TECH"> <label for="m.e"> M.E
+                or M.TECH </label> <br>
+        </p>
+        <p>
+            <button> Submit </button>
+        </p>
+    </form>
+
+    <hr>
+    <h2> Exercise 10 </h2>
+
+    <ul>
+        <li> <b> <i> "HTML & CSS is awesome" </i> </b> </li>
+    </ul>
+    <b> (or) </b> <br>
+    <br>
+    <tr>
+        <td><a href="#">
+                <font color="black"> "HTML & CSS is awesome" </font>
+            </a></td>
+    </tr>
+    <hr>
+
+    <h2> Exercise 11 </h2>
+
+    <div id="html-pg">
+
+        <label> Job Application Form </label> </h2>
+        <p>
+        <form enctype="multipart/form-data">
+            <label for="name"> Your Name: </label> <br>
+            <input type="text" value="Name" id="name" placeholder="Name"> <br>
+            </p>
+            <p>
+                <label> Your Education: </label> <br>
+                <select>
+                    <option value=""> Select </option>
+                    <option value="B.E"> B.E </option>
+                    <option value="B.E"> B.Tech </option>
+                    <option value="B.E"> B.C.A </option>
+                    <option value="B.E"> B.Sc </option><br>
+                </select>
+            </p>
+            <p>
+                <label> Position you want to apply for </label> <br>
+                <select>
+                    <option value=""> Select </option>
+                    <option value="Front End Developer"> Front End Developer </option>
+                    <option value="Backend End Developer"> Back End Developer </option>
+                    <option value="Front End Developer"> Full Stack Developer </option>
+                </select>
+            </p>
+            <p>
+                <label> Your Resume: </label> <br>
+                <input type="file" name="Resume">
+            </p>
+            <p>
+                <input type="submit" name="submit" value="submit Form">
+            </p>
+        </form>
+        </p>
+        <p>
+        <h2 style="color: rgb(255, 36, 153);"> Form with fields </h2>
+        <fieldset>
+            <legend style="color: indigo;">
+                <h2>Login Details </h2>
+            </legend>
+            <form>
+                <p>
+                    <label for="username1"> User name: </label> <br>
+                    <input type="text" name="username" value="" id="username1" placeholder="User Name"><br>
+                </p>
+                <p> <label for="email1"> E-Mail </label> <br>
+                    <input type="email" name="email" id="email1" value="mail" placeholder="E-Mail"> <br>
+                </p>
+                <p> <label for="password1"> Password </label> <br>
+                    <input type="password" name="password" id="password1" value="mail1" placeholder="Password">
+                </p>
+                <p>
+                    <label for="conf_password"> Conform Password: </label> <br>
+                    <input type="password" name="conf_password" id="conf_password" value="pass"
+                        placeholder="Re-enter Password">
+        </fieldset>
+        </p>
+        <fieldset>
+            <legend style="color: indigo;">
+                <h2> Contact Details </h2>
+            </legend>
+            <p>
+                <label for="dno"> Door No: </label> <br>
+                <input type="text" maxlength="5" size="2" id="dno" value="" placeholder="D.No">
+            </p>
+            <p>
+                <label for="street"> Street: </label> <br>
+                <input type="text" name="street_name" id="street" placeholder="Street Name" value="">
+            </p>
+            <p>
+                <label for="area"> Area: </label> <br>
+                <input type="text" name="area" id="area" placeholder="Area" value="">
+            </p>
+            <p>
+                <label for="District"> District </label><br>
+                <input type="text" name="District" id="District" placeholder="District" value="">
+            </p>
+            <p>
+                <label for="ss"> State </label> <br>
+                <select>
+                    <option value="select state" id="ss"> select state </option>
+                    <option value="Andhra Pradesh Hyderabad"> Andhra Pradesh Hyderabad
+                    </option>
+                    <option value="Arunachal Pradesh Itanagar"> Arunachal Pradesh Itanagar
+                    </option>
+                    <option value="Assam Dispur"> Assam Dispur </option>
+                    <option value="Bihar Patna"> Bihar Patna </option>
+                    <option value="Chhattisgarh Raipur"> Chhattisgarh Raipur </option>
+                    <option value="Goa Panaji"> Goa Panaji </option>
+                    <option value="Gujarat Gandhinagar"> Gujarat Gandhinagar </option>
+                    <option value="Haryana Chandigarh"> Haryana Chandigarh </option>
+                    <option value="Himachal Pradesh Shimla"> Himachal Pradesh Shimla
+                    </option>
+                    <option value="Jammu and Kashmir Srinagar"> Jammu and Kashmir Srinagar
+                    </option>
+                    <option value="Jharkhand Ranchi"> Jharkhand Ranchi </option>
+                    <option value="Karnataka Bengalur"> Karnataka Bengalur </option>
+                    <option value="Kerala"> Kerala </option>
+                    <option value=" Madhya Pradesh"> Madhya Pradesh </option>
+                    <option value="Maharashtra Mumbai"> Maharashtra Mumbai </option>
+                    <option value="Manipur Imphal"> Manipur Imphal </option>
+                    <option value="Meghalaya Shillong"> Meghalaya Shillong </option>
+                    <option value="Nagaland Kohima"> Nagaland Kohima </option>
+                    <option value="Odisha Bhubaneswar"> Odisha Bhubaneswar </option>
+                    <option value="Punjab Chandigarh"> Punjab Chandigarh </option>
+                    <option value="Rajasthan Jaipur"> Rajasthan Jaipur </option>
+                    <option value="Sikkim Gangtok"> Sikkim Gangtok </option>
+                    <option value="Tamil Nadu Chennai"> Tamil Nadu Chennai </option>
+                    <option value="Telangana Hyderabad"> Telangana Hyderabad </option>
+                    <option value="Tripura Agartala"> Tripura Agartala </option>
+                    <option value="Uttar Pradesh Lucknow"> Uttar Pradesh Lucknow </option>
+                    <option value="Uttarakhand Dehradun"> Uttarakhand Dehradun </option>
+                    <option value="West Bengal Kolkata"> West Bengal Kolkata </option>
+                </select>
+            </p>
+            <p>
+                <label for="country"> Country </label> <br>
+                <input type="text" name="country" value="" id="country" placeholder="country">
+        </fieldset>
+        </p>
+        <p>
+        <fieldset>
+            <legend style="color: indigo;">
+                <h2>Education Details</h2>
+            </legend>
+            <label for="ED"> Qualification: </label> <br>
+            <input type="text" name="qualifification" value="" id="ED" placeholder="qualification">
+            </p>
+            <p>
+                <label for="clg"> Collage: </label><br>
+                <input type="text" name="collage" value="" id="clg" placeholder="Collage">
+            </p>
+            <p>
+                <label for="yp"> Year Passed: </label> <br>
+                <input type="text" name="Year passed" id="yp" placeholder="Passed Out Year">
+            </p>
+            <p>
+                <label for="age"> Age: </label><br>
+                <input type="number" name="age" id="age" min="1" max="99">
+            </p>
+            <p>
+                <label for="DOB"> Date Of Birth </label><br>
+                <input type="date" name="DOB" id="DOB">
+            </p>
+            <p>
+                <input type="submit" name="submit" value="send">
+            </p>
+            <input type="button" value="Click Me">
+            </form>
+        </fieldset>
+        </p>
+
+        <p>
+        <h2 style="color: rgb(255, 17, 0);"> RANGE </h2>
+        <label for="Price"> Price Range </label> <br>
+        <input type="range" name="Price" id="Price" min="1000" max="25000">
+        </p>
+        <p>
+        <h3> URL, Time, Week, Search </h3>
+        <label for="website"> Website URL </label>
+        <input type="url" name="url" id="website">
+        </p>
+        <p>
+            <label for="time"> TIME </label><br>
+            <input type="time" name="time" id="time">
+        </p>
+        <p>
+            <label for="week"> WEEK </label><br>
+            <input type="week" name="week" id="week">
+        </p>
+        <p>
+            <label for="search"> Search </label> <br>
+            <input type="search" name="search" id="search">
+        </p>
+        <p>
+            <input type="submit" name="submit" id="submit">
+        </p>
+    </div>
+
+</body>
+
+</html>
